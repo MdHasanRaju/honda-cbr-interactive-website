@@ -26,7 +26,6 @@ body{
 /* banner-section-stylesheet */
 .banner-section-color{
     background: #264653;
-    padding: ;
 }
 .banner-clm-left{
     width: 480px;
@@ -101,24 +100,51 @@ body{
 }
 
 
+
 /* FAQ-section
 --------------- */
 .faq-title span{
     color: #E76F51;
   
 }
-.faq-img-container{
-    
-}
 .faq-img-container img{
     width: 431.2px;
     height: 423.5px;
 }
 .ac-title{
-    color: #383838
+    color: #383838;
     font-size: 20px;
     line-height: 28px;
 }
 .ac-body-text{
     color: #7E848C;
+}
+
+
+
+/* contact-section
+------------------- */
+.service-clm-container .left h3, .right h3{
+    color: #7E848C;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.service-clm-container .check-color{
+    color: #EE5321;
+    margin-right: 10px;
+}
+.btn-align{
+    text-align: center;
+}
+
+/* offer-section
+------------------ */
+.offer-section{
+    background-color: #16909D;
+     background: #264653;
+}
+
+.offer-h2 span{
+    color: #c23616;
+    font-weight: 600;
 }
