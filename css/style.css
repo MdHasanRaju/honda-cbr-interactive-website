@@ -1,0 +1,124 @@
+
+/* google-font */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+</style>
+
+/* custom-stylesheet
+--------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header-styles */
+.nav-color{
+    background-color: #264653;
+}
+.login a{
+    background: #E76F51;
+}
+.purchase{
+    background: #E76F51;
+    border-radius: 5px;
+
+}
+
+/* banner-section-stylesheet */
+.banner-section-color{
+    background: #264653;
+    padding: ;
+}
+.banner-clm-left{
+    width: 480px;
+}
+.banner-clm-left .text-p2{
+    color: #E0E0E0;
+
+}
+.banner-clm-right{
+   height: 447px;
+   width: 554px;
+}
+
+
+/* feature-section */
+.feature-p{
+    color: #E76F51;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.blank{
+    margin: 0 auto;
+    width: 58.5px;
+    height: 0px;
+    border: 1px solid #E76F51;
+}
+.bike-container{
+    margin: 120px 0px;
+}
+.bike-container img{
+    width: 288px;
+    height: 243px;
+}
+.bike-container .img-grayscale{
+    filter: grayscale(100%);
+}
+
+
+/* testimonial-section */
+.test-title{
+    color: #0A0826;
+}
+.test-title span{
+    color: #E76F51;
+
+}
+.card-width img{
+    height: 149px;
+    width: 149px;
+    text-align: center;
+}
+.card-width .third{
+    border-radius: 50%;
+    border: 1px solid #BDBDBD;
+}
+.card-p-text{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+
+}
+.icon .filled{
+    color: #E77C40;
+}
+.icon .empty{
+    color: #E77C40;
+}
+.user-name{
+    color: #23A6F0;
+}
+
+
+/* FAQ-section
+--------------- */
+.faq-title span{
+    color: #E76F51;
+  
+}
+.faq-img-container{
+    
+}
+.faq-img-container img{
+    width: 431.2px;
+    height: 423.5px;
+}
+.ac-title{
+    color: #383838
+    font-size: 20px;
+    line-height: 28px;
+}
+.ac-body-text{
+    color: #7E848C;
+}
