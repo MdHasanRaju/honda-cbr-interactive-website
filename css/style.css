@@ -1,8 +1,8 @@
 
 /* google-font */
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-</style>
+
+
 
 /* custom-stylesheet
 --------------------- */
@@ -10,7 +10,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* header-styles */
+
+/* header-styles
+------------------ */
+.toggler-color{
+    color: rgb(255 255 255 / 55%) !important;
+    border-color: rgb(255 255 255 / 10%) !important;
+}
 .nav-color{
     background-color: #264653;
 }
@@ -23,9 +29,11 @@ body{
 
 }
 
-/* banner-section-stylesheet */
-.banner-section-color{
+/* banner-section
+------------------ */
+.banner-section{
     background: #264653;
+    padding:69px 0 90px 0;
 }
 .banner-clm-left{
     width: 480px;
@@ -33,10 +41,6 @@ body{
 .banner-clm-left .text-p2{
     color: #E0E0E0;
 
-}
-.banner-clm-right{
-   height: 447px;
-   width: 554px;
 }
 
 
@@ -71,7 +75,6 @@ body{
 }
 .test-title span{
     color: #E76F51;
-
 }
 .card-width img{
     height: 149px;
@@ -87,7 +90,6 @@ body{
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.2px;
-
 }
 .icon .filled{
     color: #E77C40;
@@ -121,6 +123,17 @@ body{
 }
 
 
+/* offer-section
+------------------ */
+.offer-section{
+     background: #264653;
+}
+.offer-h2 span{
+    color: #c23616;
+    font-weight: 600;
+}
+
+
 
 /* contact-section
 ------------------- */
@@ -137,14 +150,47 @@ body{
     text-align: center;
 }
 
-/* offer-section
------------------- */
-.offer-section{
-    background-color: #16909D;
-     background: #264653;
+
+
+/* footer
+----------- */
+footer{
+    background-color: #0B0D17;
 }
 
-.offer-h2 span{
-    color: #c23616;
-    font-weight: 600;
+
+
+                        /* media query
+------------------------------------------------------------- */
+
+
+/* mobile-device
+------------------ */
+@media only screen and (max-width:688px) {
+.banner-section{
+    padding:40px 0 30px 0;
+}
+.bike-container {
+    margin-bottom: 20px;
+}
+.sm-img{
+    width: 100%;
+}
+.sm-img-margin{
+    margin-bottom: 60px;
+}
+.faq-img-container{
+    width: auto;
+}
+.faq-img-container .sm-img{
+    width: 100%;
+}
+.sm-ac-margin{
+    margin-top: 20px;
+    margin-left: 0px !important;
+}
+.banner-clm-right {
+    padding: 30px 0;
+}
+
 }
